@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>	  
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title>University Website Design</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">PARTS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+    <div class="text-box">
+    	<h1>BOSS TANTAN THAI PARTS</h1>
+    	<p>Boss Tantan Thaiparts.<br> You can purchase quality and affordable thaiparts and accessories.</p>
+    	<a href="class="hero-btn">Contact us for more info</a>
+    </div>
+  
+</section>
+<!------accounts----->
+
+<section class="accounts">
+	<h1>Accounts that I Have</h1>
+	<p>Click Here</p>
+
+	<div class="row">
+		<div class="accounts-col">
+			<h3>Facebook</h3>
+			<p>John Christian M. Laririt</p>
+			<p>John Christain Laririt</p>
+		</div>
+		<div class="accounts-col">
+			<h3>Instagram</h3>
+			<p>itsxtian</p>
+		</div>
+		<div class="accounts-col">
+			<h3>Telegram</h3>
+			<p>Mallows227</p>
+		</div>			
+	</div>
+
+</section>
+
+<!-------Shop------->
+
+<section class="shop">
+	<h1>My Shop</h1>
+	<p>Marinduque</p>
+
+	<div class="row1">
+		<div class="shop-col">
+			<img src="images/shop.jpg">
+			<div class="layer">
+				<h3>MARINDUQUE</h3>
+			</div>
+		</div>
+	</div>
+	<div class="row1">
+		<div class="shop-col">
+			<img src="images/manila.jpg">
+			<div class="layer">
+				<h3>MANILA</h3>
+			</div>
+		</div>
+	</div>
+	<div class="row1">
+		<div class="shop-col">
+			<img src="images/batangas.jpg">
+			<div class="layer">
+				<h3>BATANGAS</h3>
+			</div>
+		</div>		
+	</div>
+
+</section>
+
+<!-------Services-------->
+
+<section class="parts">
+	<h1>Parts</h1>
+	<p>Here are some available part in different branches.</p>
+
+	<div class="row">
+		<div class="parts-col"></div>
+		<p>MARINDUQUE</p>
+		<img class = "partsImg"src="images/parts.jpg">
+		<h3 class ="partsH3">Carb, Sprocket and Hoses</h3>
+	</div>
+	<div class="row">
+		<div class="parts-col"></div>
+		<p>MANILA</p>
+		<img class = "partsImg" src="images/parts1.jpg">
+		<h3 class ="partsH3">Flat Seat, Swing Arm, Shifters and Disc</h3>
+	</div>
+	<div class="row">
+		<div class="parts-col"></div>
+		<p>BATANGAS</p>
+		<img class = "partsImg" src="images/parts2.jpg">
+		<h3 class ="partsH3">Brake Hoses, Disc, and Grips</h3>
+		
+	</div>
+</section>
+
+<!----------builds-------->
+
+<section class="builds">
+	<h1>Motor that we builds</h1>
+	<p>here are some of the thai concept motorcycles we have built</p>
+
+	<div class="container">
+		<div class="builds-col">
+			<img src="images/build1.jpg">
+		</div>
+		<div class = "motor_info">
+			<p>Suzuki Raider 150FI</p>
+			<p>This raider was equipped with APR products and we modify the other parts like the throttle body and we change the mags into rimset to make the street bike look. </p>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+	</div>
+
+	<div class="container">
+        <div class="builds-col">
+        	<img src="images/build2.jpg">
+        </div>
+		<div class = "motor_info">
+			<p>Yamaha X1R</p>	
+			<p>This yamaha was equipped with thailand product like swing arm, brake system and rims</p>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>	
+		</div>
+	</div>
+</section>
+
+<!------- call to Action------->
+
+<section class="cta">
+	<h1>Message for your desired builds in any branch</h1>
+	<a href="" class="hero-btn">Message Us</a>
+	
+</section>
+
+<!------- call to action-------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We are a shop suited for your desired concept and modifications.</p>
+	<div class="icons">
+		<i class="fa fa-star"></i>
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-linkedin"></i>
+		
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+<!-------JavaScript for toggle Menu------>
+<script> 
+
+	var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+    	navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    	navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
